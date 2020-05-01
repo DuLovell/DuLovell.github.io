@@ -1,7 +1,7 @@
 <?php
-$image_url = $GET['image'];
-$fio = $GET['fio'];
-$email = $GET['email'];
+$image_url = $_GET['image'];
+$fio = $_GET['fio'];
+$email = $_GET['email'];
 
 
 if (mail("photoshopdemo2@gmail.com", "Заказ с сайта", "ФИО:".$fio.". E-mail: ".$email ,"From: bednyakov99@gmail.com \r\n"))
